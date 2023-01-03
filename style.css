@@ -1,0 +1,260 @@
+body{
+    background: #E5E5E5;
+}
+
+header {
+    
+    width: 100%;  display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  header .caja {
+    display: flex; /* permite alinear los elementos en línea */
+    justify-content: center; /* alinea el contenido horizontalmente */
+    align-items: center; /* alinea el contenido verticalmente */
+  }
+  
+  header img.logo {
+    margin-right: 10px; /* deja un espacio a la derecha del logo */
+  }
+   
+  .logo {
+    width: 32px;
+    height: 48px;
+    display: flex;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .contenido{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+.left{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    vertical-align: auto;
+    margin:0px 5px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
+    border: none;
+    border-radius: 10px;
+}
+.right{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+   border: none;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+}
+
+
+  #input-text{
+    font-size: 2em;
+        resize: none;
+        border: none;
+        width: 95%;
+        height: 70%; 
+        text-align: center;
+        outline: none;
+        display:flex;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding-top: 10px;
+        background: #E5E5E5;
+      }
+      #input-text::placeholder {
+        color: #0A3871;
+      }
+ 
+   
+  #boton-encrip{
+    padding: 24px;
+    width: 30%;
+    height: auto;
+    border-radius: 25px;
+    border: none;
+    margin: 0 5%;
+    margin-top: 10%;
+    background: #0A3871;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    
+  }
+  
+  #boton-encrip:hover{
+      background-color: black;
+      color: yellow;
+      border: 2px solid yellow ;
+  }
+  
+  #boton-desen{
+    padding: 24px;
+    width: 30%;
+    height: auto;
+    border-radius: 25px;
+    border-color: #0A3871;
+    margin-left:auto;
+    margin: 10px 0;
+    background: #D8DFE8;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+  }
+  #boton-desen:hover{
+    background-color: black;
+    color: yellow;
+    border: 2px solid yellow ;
+  }
+  
+  
+
+ 
+
+    
+  
+ 
+  #imgDer{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  #texto{
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  textarea#texto2 {
+    resize: none;
+    border: none;
+    width: 98%; 
+    height: 20%;
+    text-align: center;
+    outline: none;
+    font-size: 2em;
+    margin-top:2%;
+  }
+
+  #botonCopiar{
+    margin: 0 23%;
+    padding: 24px;
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    align-items: center;
+    background: #0A3871;
+    font-weight: bold;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 19px;
+    text-align: center;
+    display: none;
+    color: #FFFFFF;
+    border: none;
+    
+  }
+  
+  #botonCopiar:hover{
+      background-color: black;
+      color: yellow;
+      border: 2px solid yellow ;
+      margin-bottom: 10px;
+  }
+
+  footer{
+    width: auto;
+    height: 40px;
+    text-align: center;
+    background: #0A3871;
+    color: #FFFFFF;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+    
+ 
+  
+  @media (max-width: 1030px) {
+   
+    .caja h1{
+        font-size: 1.5em;
+      }
+      .contenido{
+        margin: 0px;
+        padding: 0%;
+      }
+      .left{
+        width: 100%;
+        margin-left: 0%;
+       
+    }
+    #input-text{
+        margin-top: 5%;
+        font-size: 1.5em;
+    }
+
+    
+    .right{
+        width: 100%;
+        margin: auto;
+        
+
+
+
+    }
+
+    #texto,textarea#texto2{
+        font-size: 1.5em;
+        margin-top: 10%;
+    }
+ 
+    
+    #boton-encrip{
+        width: 90%;
+    margin:5px 0;
+    font-size: 1em;
+    }
+    #boton-desen{
+        width: 90%;
+        font-size:smaller;
+        
+    }
+    #botonCopiar{
+        width: 90%;
+        margin-bottom: 10%;
+        margin-left: 5%;    
+        margin-right: 5%;
+    }
+    
+  }
+  

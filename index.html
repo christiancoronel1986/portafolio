@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:ital,wght@0,100;0,300;1,300&display=swap" rel="stylesheet">
+    <title>Reto Alura / Encriptador</title>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <img src="img/Vector.png" alt="Logo Alura" class="logo">
+            <h1>Challenge Alura: Encriptador de mensajes!</h1> 
+        </div>
+    </header>
+
+    <main>
+        <ul class="contenido">
+            <li class="left">
+            <textarea name="" id="input-text" cols="30" rows="10" placeholder="Ingrese Texto Aqui"></textarea>
+            <button type="button" id="boton-encrip">Encriptar</button>
+            <button type="button" id="boton-desen">Desencriptar</button>
+            </li>
+            <li class="right">
+
+                <img src= "img/Muñeco.png" id="imgDer">
+                <h1 id="texto"> Ningún mensaje fue encontrado.</h1>
+                <textarea id="texto2" name="name" rows="8" cols="80" readonly="true" resize="none">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+                <button  type="button"  id="botonCopiar" onclick="mostrar()">Copiar</button>
+            </li>
+
+
+        </ul>
+       
+    </main>
+</body>
+<footer>
+    <p class="copyright">&copy Copyright Alura Latam. Hecho por Christian Coronel - 2022</p>
+</footer>
+
+</html>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
